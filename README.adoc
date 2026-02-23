@@ -51,15 +51,15 @@ sections/
 ----
 # Νόμος / Κανονισμός (προεπιλογή doctype: act)
 metanorma new my-law --type lawgr --doctype act \
-  --template /path/to/metanorma-lawgr/templates
+  --template https://github.com/gedia/mn-templates-lawgr.git
 
 # Προεδρικό Διάταγμα
 metanorma new my-pd --type lawgr --doctype pd \
-  --template /path/to/metanorma-lawgr/templates
+  --template https://github.com/gedia/mn-templates-lawgr.git
 
 # Απόφαση
 metanorma new my-apofasi --type lawgr --doctype ap \
-  --template /path/to/metanorma-lawgr/templates
+  --template https://github.com/gedia/mn-templates-lawgr.git
 ----
 
 Αντικαταστήστε `/path/to/metanorma-lawgr` με την πραγματική διαδρομή του gem
