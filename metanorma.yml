@@ -1,0 +1,13 @@
+---
+metanorma:
+  source:
+    files:
+      - act/document.adoc
+      - ap/document.adoc
+      - egk/document.adoc
+      - pd/document.adoc
+      - other/document.adoc
+
+  collection:
+    organization: "Hellenic Republic"
+    name: "National Printing House Deliverable in Metanorma AsciiDoc"
